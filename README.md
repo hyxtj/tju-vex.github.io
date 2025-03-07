@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # hyxtj's Website
+  # TJU-VEX's Website
 
   Visit **[hyxtj.github.io/tju-vex.github.io](https://hyxtj.github.io/tju-vex.github.io)** 🚀
 
