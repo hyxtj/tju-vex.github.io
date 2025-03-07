@@ -1,9 +1,10 @@
 ---
 ---
 
-# hyxtj's Website
+# TJU VEX ROBOTICS
 
 An engaging 1-3 sentence description of your lab.
+同济大学VEX机器人实验室
 
 {% include section.html %}
 
