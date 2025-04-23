@@ -55,7 +55,10 @@ plugins:
 highlighter: rouge
 
 # jekyll theme
-theme: null
+# theme: 
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-include-cache
 
 # sass settings
 sass:
