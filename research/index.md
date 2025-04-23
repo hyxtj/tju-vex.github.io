@@ -1,11 +1,11 @@
 ---
-title: Research
+title: 战队历史
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Team History
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="history" %}战队历史
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
