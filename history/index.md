@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="history" %}战队历史
 
-这里展示了同济大学VEX实验室成立依赖取得的一些成绩。
+这里展示了同济大学VEX实验室成立以来取得的一些成绩。
 
 {% include section.html %}
 
@@ -16,4 +16,3 @@ nav:
 {% include search-info.html %}
 
 {% include list.html data="news" component="post-excerpt" %} 
-

@@ -1,8 +1,8 @@
 ---
-title: Team
+title: 团队成员介绍
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: 关于TJU-VEX团队
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team

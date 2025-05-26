@@ -12,6 +12,8 @@
 {% capture text %}
 
 这里是同济大学VEX机器人实验室的官方网站。我们致力于研究机器人技术，包括机器人设计、编程和制造。我们的实验室拥有先进的机器人制造设备，可以制作各种机器人原型。我们还在进行机器人算法的研究，包括路径规划、运动控制、传感器数据处理等。我们的实验室还定期举办机器人比赛，以展示我们的机器人技术和创新能力。
+{% include button.html type="docs" text="Bilibili" icon="fa-brands fa-bilibili" link="https://space.bilibili.com/3546375585270436" %} {% include section.html %}
+
 
 {%
   include button.html

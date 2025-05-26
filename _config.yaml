@@ -5,15 +5,16 @@ description: 同济大学VEX机器人实验室
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
+slogan:
+  - "同济大学VEX机器人实验室"
+  - "TJU VEX Robotics Lab"
+  - "VEX Robotics Lab of Tongji University"
 
 # site social media and other links
 links:
-  email: contact@hyxtj.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: 13605046617@163.com
   github: hyxtj
-  twitter: hyxtj
-  youtube: hyxtj
+  bilibili: https://space.bilibili.com/3546375585270436
 
 ### jekyll settings
 
@@ -34,6 +35,10 @@ defaults:
       type: "posts"
     values:
       layout: post
+  - scope:
+      type: "news"
+    values:
+      layout: news
 
 collections:
   # generate page for each member
@@ -41,6 +46,8 @@ collections:
     output: true
   # generate page for each post
   posts:
+    output: true
+  news:
     output: true
 
 # jekyll plugins
