@@ -28,7 +28,7 @@
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/news/world2025_2.png"
   link="history"
   title="战队历史"
   text= text
@@ -36,7 +36,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+实验室开展了各类项目活动
 
 {%
   include button.html
@@ -61,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+充满活力，团结友爱的实验室
 
 {%
   include button.html
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/news/world2025_3.png"
   link="team"
   title="Our Team"
   text=text
