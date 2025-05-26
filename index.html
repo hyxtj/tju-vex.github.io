@@ -37,15 +37,11 @@
 
 
 
-
-
-
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>TJU-VEX</title>
 
-<link rel="icon" href="/tju-vex.github.io/images/icon.png">
+<link rel="icon" href="">
 
 <meta name="title" content="">
 <meta name="description" content="同济大学VEX机器人实验室">
@@ -78,13 +74,16 @@
     "headline": "",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/tju-vex.github.io/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "" }
     },
     "url": "https://hyxtj.github.io/tju-vex.github.io"
   }
 </script>
 
 <link rel="alternate" type="application/rss+xml" href="https://hyxtj.github.io/tju-vex.github.io/feed.xml">
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -94,9 +93,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -368,6 +367,7 @@
   <script src="/tju-vex.github.io/_scripts/tooltip.js"></script>
 
 
+  <meta name="baidu-site-verification" content="codeva-4rp3yfQ3vF">
 </head>
 
   <body>
@@ -379,20 +379,85 @@
 
 
 
-<header class="background" style="--image: url('/tju-vex.github.io/images/background.jpg')" data-dark="true" data-big>
+
+<header class="background" data-dark="true" data-big>
+
+  <div class="overlay"></div>
+<video class="background-video" preload="auto" playsinline="true" x5-playsinline="true" webkit-playsinline="true" name="media" autoplay="autoplay" loop="loop" muted="muted" data-wf-ignore="true" data-object-fit="cover" poster="/tju-vex.github.io/images/background.jpg" src=""></video>
+
   <a href="/tju-vex.github.io/" class="home">
     
       <span class="logo">
         
-          <img src="/tju-vex.github.io/images/logo1.png" alt="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
+  <style>
+    .bubble {
+      animation: float 2s ease-out both infinite var(--delay);
+    }
+    @keyframes float {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+    }
+  </style>
+  <g fill="currentColor" opacity="0.5">
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
+  </g>
+  <path fill="#38bdf8" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L -19.5 11.25
+      L 0 22.5
+      L 19.5 11.25
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="#bae6fd" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L 0 0
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="none" stroke="currentColor" stroke-width="5" d="
+      M -18 -53
+      L -10 -53
+      L -10 -29.2
+      L -30.3 -17.5
+      L -30.3 17.5
+      L 0 35
+      L 30.3 17.5
+      L 30.3 -17.5
+      L 10 -29.2
+      L 10 -53
+      L 18 -53
+    "></path>
+</svg>
+
         
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text" data-tooltip="主页">
         
           <span class="title">TJU-VEX</span>
         
+        
+        
+          <span class="slogan">同济大学VEX机器人实验室TJU VEX Robotics LabVEX Robotics Lab of Tongji University</span>
         
       </span>
     
@@ -422,8 +487,8 @@
       
     
       
-        <a href="/tju-vex.github.io/blog/" data-tooltip="Musings and miscellany">
-          Blog
+        <a href="/tju-vex.github.io/blog/" data-tooltip="经验分享">
+          经验分享
         </a>
       
     
@@ -465,16 +530,16 @@
 
   <section class="background" data-size="page">
     <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
+  background: ;
+  dark: ;
+  size: ;
 -->
 
 <h2 id="高光时刻">高光时刻</h2>
 
 <div class="feature">
   <a href="/tju-vex.github.io/history" class="feature-image" aria-label="战队历史">
-    <img src="/tju-vex.github.io/images/photo.jpg" loading="lazy" alt="战队历史" onerror="this.src = '/tju-vex.github.io/images/fallback.svg'; this.onerror = null;">
+    <img src="/tju-vex.github.io/images/photo.jpg" loading="lazy" alt="战队历史" style="object-fit: contain;" onerror="this.src = '/tju-vex.github.io/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -499,9 +564,9 @@
 
   <section class="background" data-size="page">
     <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
+  background: ;
+  dark: ;
+  size: ;
 -->
 
 <div class="button-wrapper">
@@ -520,7 +585,7 @@
 
 <div class="feature" data-flip="">
   <a href="/tju-vex.github.io/projects" class="feature-image" aria-label="Our Projects">
-    <img src="/tju-vex.github.io/images/photo.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/tju-vex.github.io/images/fallback.svg'; this.onerror = null;">
+    <img src="/tju-vex.github.io/images/photo.jpg" loading="lazy" alt="Our Projects" style="object-fit: contain;" onerror="this.src = '/tju-vex.github.io/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -544,7 +609,7 @@
 
 <div class="feature">
   <a href="/tju-vex.github.io/team" class="feature-image" aria-label="Our Team">
-    <img src="/tju-vex.github.io/images/photo.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/tju-vex.github.io/images/fallback.svg'; this.onerror = null;">
+    <img src="/tju-vex.github.io/images/photo.jpg" loading="lazy" alt="Our Team" style="object-fit: contain;" onerror="this.src = '/tju-vex.github.io/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -578,7 +643,12 @@
       Extra details like contact info or address
     </div>
   -->
-
+    <div class="button-wrapper">
+       <img src="https://hust.edu.cn/images/logo20240628.png" alt="华中科技大学" style="max-height: 50px;  margin-right: 5%; margin-left: 5%; display: block;">
+      <img src="/tju-vex.github.io/images/eic.png" alt="华中科技大学" style="max-height: 35px;  margin-right: 5%; margin-left: 5%; display: block;">
+    </div>
+ 
+  
   <div>
     
       
@@ -626,15 +696,27 @@
 
 
     
+    <br>
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="http://db.hustlangya.fun" data-style="bare" aria-label="fa-solid fa-database">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>狼牙数据站</span>
+      
+    </a>
+  </div>
+
+
   </div>
 
   <div>
     © 2025
     TJU-VEX
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
+    
   </div>
 
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">

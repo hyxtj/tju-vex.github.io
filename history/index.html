@@ -37,15 +37,11 @@
 
 
 
-
-
-
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>战队历史 | TJU-VEX</title>
 
-<link rel="icon" href="/tju-vex.github.io/images/icon.png">
+<link rel="icon" href="">
 
 <meta name="title" content="战队历史">
 <meta name="description" content="同济大学VEX机器人实验室">
@@ -78,13 +74,16 @@
     "headline": "战队历史",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/tju-vex.github.io/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "" }
     },
     "url": "https://hyxtj.github.io/tju-vex.github.io"
   }
 </script>
 
 <link rel="alternate" type="application/rss+xml" href="https://hyxtj.github.io/tju-vex.github.io/feed.xml">
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -94,9 +93,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -368,6 +367,7 @@
   <script src="/tju-vex.github.io/_scripts/tooltip.js"></script>
 
 
+  <meta name="baidu-site-verification" content="codeva-4rp3yfQ3vF">
 </head>
 
   <body>
@@ -379,20 +379,82 @@
 
 
 
+
 <header class="background" style="--image: url('/tju-vex.github.io/images/background.jpg')" data-dark="true">
+
   <a href="/tju-vex.github.io/" class="home">
     
       <span class="logo">
         
-          <img src="/tju-vex.github.io/images/logo1.png" alt="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
+  <style>
+    .bubble {
+      animation: float 2s ease-out both infinite var(--delay);
+    }
+    @keyframes float {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+    }
+  </style>
+  <g fill="currentColor" opacity="0.5">
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
+  </g>
+  <path fill="#38bdf8" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L -19.5 11.25
+      L 0 22.5
+      L 19.5 11.25
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="#bae6fd" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L 0 0
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="none" stroke="currentColor" stroke-width="5" d="
+      M -18 -53
+      L -10 -53
+      L -10 -29.2
+      L -30.3 -17.5
+      L -30.3 17.5
+      L 0 35
+      L 30.3 17.5
+      L 30.3 -17.5
+      L 10 -29.2
+      L 10 -53
+      L 18 -53
+    "></path>
+</svg>
+
         
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text" data-tooltip="主页">
         
           <span class="title">TJU-VEX</span>
         
+        
+        
+          <span class="slogan">同济大学VEX机器人实验室TJU VEX Robotics LabVEX Robotics Lab of Tongji University</span>
         
       </span>
     
@@ -422,8 +484,8 @@
       
     
       
-        <a href="/tju-vex.github.io/blog/" data-tooltip="Musings and miscellany">
-          Blog
+        <a href="/tju-vex.github.io/blog/" data-tooltip="经验分享">
+          经验分享
         </a>
       
     
@@ -466,13 +528,13 @@
 
   <section class="background" data-size="page">
     <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
+  background: ;
+  dark: ;
+  size: ;
 -->
 
 <div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="在此页面内进行搜索">
   <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
@@ -489,7 +551,7 @@
     
 
     <div class="post-excerpt-text">
-      <a href="/tju-vex.github.io/news/world2025.html">🎉 喜报｜我校学子斩获VEX机器人世锦赛技能赛第五名及评审大奖 🏆</a>
+      <a href="/tju-vex.github.io/news/world2025.html">喜报｜我校学子斩获VEX机器人世锦赛技能赛第五名及评审大奖</a>
 
       <div class="post-info">
   
@@ -498,9 +560,9 @@
   
 
   
-    <span data-tooltip="Originally published on">
+    <span data-tooltip="发布于">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>May 26, 2025</span>
+      <span>2025年05月26日</span>
     </span>
   
 
@@ -511,18 +573,10 @@
   
 
 
-  <div class="tags" data-link="/tju-vex.github.io/blog">
+  <div class="tags" data-link="https://hyxtj.github.io/tju-vex.github.io/blog">
     
-      <a href="blog?search=%22tag:%202025%E5%B9%B4vex%E4%B8%96%E7%95%8C%E9%94%A6%E6%A0%87%E8%B5%9B%22" class="tag" data-tooltip='Show items with the tag "2025年vex世界锦标赛"'>
+      <a href="https://hyxtj.github.io/tju-vex.github.io/blog?search=%22tag:%202025%E5%B9%B4vex%E4%B8%96%E7%95%8C%E9%94%A6%E6%A0%87%E8%B5%9B%22" class="tag" data-tooltip='Show items with the tag "2025年vex世界锦标赛"'>
         2025年vex世界锦标赛
-      </a>
-    
-      <a href="blog?search=%22tag:%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%AB%9E%E8%B5%9B%22" class="tag" data-tooltip='Show items with the tag "机器人竞赛"'>
-        机器人竞赛
-      </a>
-    
-      <a href="blog?search=%22tag:%20%E5%90%8C%E6%B5%8E%E8%8D%A3%E8%80%80%22" class="tag" data-tooltip='Show items with the tag "同济荣耀"'>
-        同济荣耀
       </a>
     
   </div>
@@ -533,9 +587,8 @@
 
       
       
-      <p data-search="赛事速览 世界舞台上的同济身影 赛队出征合影 自信笑容展现团队风采 gt; 核心战绩 gt; - 技能挑战赛全球第五名 中国队伍最佳成绩 gt; - 巧思奖 评审大奖 AI算法程序设计 gt; - 资格赛8胜1负 强势晋级八强 --- 参赛机器人风采 双机联动 韦畅号 小灰灰号 明星机器人 韦畅号 左 与 小灰灰号 右 中间为THINK AWARD奖杯 --- 备赛纪实 汗水铸就荣耀 在世锦赛场外合影 团队高光时刻 - 春节无休 正月初十全员返校 昼夜调试设备 - 传承精神 老队员手把手教学 新成员勇担重任 - 突破创新 10次方案迭代 攻克3项技术瓶颈 --- 赛场瞬间 巅峰对决 国际评委验机环节 严谨态度赢得一致好评 以创新为剑 以协作为盾 同济精神闪耀国际舞台">
-        
-
+      <p data-search="同济大学VEX机器人实验室在2024-2025赛季世界锦标赛上获得佳绩参赛机器人风采在3天紧张激烈的角逐中 队员们发扬同舟共济的精神 以8胜1负的成绩位列资格赛第六名 成功晋级八强 最终夺得技能赛世界第五名 中国参赛队伍最好成绩 同时凭借基于AI算法的机器人程序设计赢得 巧思奖 THINK AWARD 评审大奖 在备赛中 团队得到了学校 学院以及合作企业鼎阳科技股份有限公司的大力支持 备赛期间 队员们展现了高度的责任感和奉献精神 在保证学业质量的同时 充分利用课余时间全情投入备赛工作 经常在实验室工作至深夜 特别是在春节假期期间 全体成员于正月初十提前返校 争分夺秒地进行设备调试和方案优化 新队员不畏艰险 勇挑重担 老队员甘为人梯 倾囊相授 团队内部形成了良好的协作机制 队员们克服了技术瓶颈 赛制调整等困难 不断迭代方案 实现了突破与超越 又一次在世界级的舞台上 展示了 同济天下 崇尚科学 创新引领 追求卓越 的同济学子风采 评审与验机环节">
+        同济大学VEX机器人实验室在2024-2025赛季世界锦标赛上获得佳绩
 
       </p>
     </div>
@@ -554,7 +607,12 @@
       Extra details like contact info or address
     </div>
   -->
-
+    <div class="button-wrapper">
+       <img src="https://hust.edu.cn/images/logo20240628.png" alt="华中科技大学" style="max-height: 50px;  margin-right: 5%; margin-left: 5%; display: block;">
+      <img src="/tju-vex.github.io/images/eic.png" alt="华中科技大学" style="max-height: 35px;  margin-right: 5%; margin-left: 5%; display: block;">
+    </div>
+ 
+  
   <div>
     
       
@@ -602,15 +660,27 @@
 
 
     
+    <br>
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="http://db.hustlangya.fun" data-style="bare" aria-label="fa-solid fa-database">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>狼牙数据站</span>
+      
+    </a>
+  </div>
+
+
   </div>
 
   <div>
     © 2025
     TJU-VEX
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
+    
   </div>
 
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
