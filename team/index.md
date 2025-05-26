@@ -1,7 +1,7 @@
 ---
 title: 团队成员介绍
 nav:
-  order: 3
+  order: 2
   tooltip: 关于TJU-VEX团队
 ---
 
@@ -16,7 +16,8 @@ nav:
 {% include list_portrait.html data="members" component="portrait" filters="role: 指导老师" %}
 
 ## {% include icon.html icon="fa-solid fa-users" %}团队负责人
-{% include list_portrait.html data="members" component="portrait" filters="type: 团队负责人" %}
+
+{% include list_portrait.html data="members" component="portrait" filters="role: 团队负责人" %}
 
 ## {% include icon.html icon="fa-solid fa-users" %}机械组
   

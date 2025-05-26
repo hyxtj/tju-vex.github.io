@@ -66,7 +66,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="团队成员介绍"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
