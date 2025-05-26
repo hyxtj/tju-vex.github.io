@@ -16,7 +16,7 @@
 {%
   include button.html
   link="history"
-  text="See our publications"
+  text="查看详情"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -29,7 +29,7 @@
   image="images/photo.jpg"
   link="history"
   title="战队历史"
-  text=text
+  text= text
 %}
 
 {% capture text %}
