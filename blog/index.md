@@ -1,14 +1,13 @@
 ---
-title: Blog
+title: 经验分享
 nav:
   order: 4
-  tooltip: Musings and miscellany
+  tooltip: 经验分享
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+实验室成员经验分享及开源程序图纸等。
 
 {% include section.html %}
 
