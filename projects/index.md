@@ -1,16 +1,27 @@
-<!-- ---
-title: 战队沿革
+---
+title: 项目成果
 nav:
   order: 2
-  tooltip: 战队历史
+  tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}战队发展历史
+# {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-{% include section.html %}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-{% include search-box.html %}
+{% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %}
 
-{% include list.html data="news" component="post-excerpt" %} -->
+{% include section.html %}
+
+## Featured
+
+{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+
+{% include section.html %}
+
+## More
+
+{% include list.html component="card" data="projects" filter="!group" style="small" %}
