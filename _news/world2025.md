@@ -56,7 +56,7 @@ tags:
 {% include figure.html 
    image="images/news/world2025_4.png" 
    caption="🔍 国际评委验机环节｜严谨态度赢得一致好评" 
-%>
+%}
 
 </div>
 
