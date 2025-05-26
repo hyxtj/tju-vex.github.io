@@ -24,7 +24,7 @@ tags:
 ## 🤖 参赛机器人风采
 
 ### 双机联动：韦畅号 × 小灰灰号
-{% include figure.html 
+<% include figure.html 
    image="images/news/world2025_2.png" 
    caption="⚙️ 明星机器人『韦畅号』(左)与『小灰灰号』(右)｜中间为THINK AWARD奖杯" 
 %>
@@ -47,7 +47,7 @@ tags:
 
 ## 🏆 赛场瞬间：巅峰对决
 
-{% include figure.html 
+<% include figure.html 
    image="images/news/world2025_4.png" 
    caption="🔍 国际评委验机环节｜严谨态度赢得一致好评" 
 %>
