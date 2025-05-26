@@ -15,7 +15,7 @@
 
 {%
   include button.html
-  link="research"
+  link="history"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -27,8 +27,8 @@
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
-  title="Our Research"
+  link="history"
+  title="战队历史"
   text=text
 %}
 
